@@ -1,6 +1,10 @@
+import './HeroContent.css'
+import profilePicture from '../../assets/PFP.jpg'
+
 export function HeroContent() {
   return (
     <div className="hero__content">
+      <img className="hero__avatar" src={profilePicture} alt="Aadit Bhatia" />
       <h1>Hi, I'm Aadit Bhatia!
       </h1>
       <p>
