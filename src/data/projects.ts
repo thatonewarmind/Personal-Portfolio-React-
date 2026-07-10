@@ -13,6 +13,6 @@ export const projects: Project[] = [
     title: 'Project Two: Personal Portfolio Website',
     description: 'A personal portfolio website built with React and TypeScript, showcasing my projects and skills.',
     tags: ['React', 'TypeScript', 'Node.js', 'CSS', 'HTML'],
-    repoUrl: 'https://github.com/your-username/project-two',
+    repoUrl: 'https://github.com/thatonewarmind/Personal-Portfolio-React-',
   },
 ]
