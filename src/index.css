@@ -1,20 +1,20 @@
 :root {
-  --text: #ff003c;
-  --text-h: #cca937;
-  --bg: #f5f0e1;
-  --border: #f2d9cd;
-  --code-bg: #fbeee3;
-  --accent: #ff7e5f;
-  --accent-2: #6a89cc;
-  --accent-bg: rgba(240, 64, 20, 0.12);
-  --accent-border: rgba(255, 126, 95, 0.5);
-  --social-bg: rgba(251, 238, 227, 0.6);
+  --text: #1e293b;
+  --text-h: #1d4ed8;
+  --bg: #f8fafc;
+  --border: #cbd5e1;
+  --code-bg: #eef2f7;
+  --accent: #2563eb;
+  --accent-2: #64748b;
+  --accent-bg: rgba(37, 99, 235, 0.08);
+  --accent-border: rgba(37, 99, 235, 0.35);
+  --social-bg: rgba(226, 232, 240, 0.6);
   --shadow:
-    rgba(120, 53, 15, 0.12) 0 10px 15px -3px, rgba(120, 53, 15, 0.06) 0 4px 6px -2px;
-  --gradient-sunset: linear-gradient(135deg, #02350e, #ff6f91, #6a89cc);
+    rgba(30, 41, 59, 0.12) 0 10px 15px -3px, rgba(30, 41, 59, 0.06) 0 4px 6px -2px;
+  --gradient-sunset: linear-gradient(135deg, #0f172a, #1d4ed8, #64748b);
 
-  --sans: 'JetBrains Mono', ui-monospace, Consolas, monospace;
-  --heading: 'Orbitron', system-ui, sans-serif;
+  --sans: 'Inter', system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --heading: 'Poppins', system-ui, -apple-system, 'Segoe UI', sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -34,19 +34,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #fafafa;
-    --text-h: #BB0000;
-    --bg: linear-gradient(235deg, #BB0000, #000000, #666666);;
-    --border: #BB0000;
-    --code-bg: #dbd5e6;
-    --accent: #ff8c69;
-    --accent-2: #7aa2f7;
-    --accent-bg: rgba(0, 0, 0, 0.15);
-    --accent-border: rgba(255, 140, 105, 0.5);
-    --social-bg: rgba(58, 46, 66, 0.5);
+    --text: #e2e8f0;
+    --text-h: #60a5fa;
+    --bg: #0f172a;
+    --border: #334155;
+    --code-bg: #1e293b;
+    --accent: #3b82f6;
+    --accent-2: #94a3b8;
+    --accent-bg: rgba(59, 130, 246, 0.15);
+    --accent-border: rgba(59, 130, 246, 0.5);
+    --social-bg: rgba(30, 41, 59, 0.5);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-    --gradient-sunset: linear-gradient(130deg, #BB0000, #000000, #666666);
+    --gradient-sunset: linear-gradient(130deg, #0f172a, #1d4ed8, #334155);
   }
 
   #social .button-icon {
