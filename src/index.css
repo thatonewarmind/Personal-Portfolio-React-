@@ -13,8 +13,8 @@
     rgba(120, 53, 15, 0.12) 0 10px 15px -3px, rgba(120, 53, 15, 0.06) 0 4px 6px -2px;
   --gradient-sunset: linear-gradient(135deg, #02350e, #ff6f91, #6a89cc);
 
-  --sans: 'DM Sans', ui-monospace, Consolas, monospace;
-  --heading: 'Playfair Display', system-ui, sans-serif;
+  --sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --heading: 'Inter', system-ui, -apple-system, sans-serif;
   --mono: 'JetBrains Mono', ui-monospace, Consolas, monospace;
 
   font: 18px/145% var(--sans);
@@ -34,19 +34,19 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --text: #fa22fafa;
-    --text-h: #22E822;
-    --bg: #0A0A0A; 
-    --border: #22E822;
+    --text: #f4eded;
+    --text-h: #7173ec;
+    --bg: #2b2d42; 
+    --border: #c52184;
     --code-bg: #dbd5e6;
-    --accent: #F5D6EE;
+    --accent: #717774;
     --accent-2: #7aa2f7;
     --accent-bg: rgba(0, 0, 0, 0.15);
     --accent-border: rgba(255, 140, 105, 0.5);
     --social-bg: rgba(58, 46, 66, 0.5);
     --shadow:
       rgba(0, 0, 0, 0.4) 0 10px 15px -3px, rgba(0, 0, 0, 0.25) 0 4px 6px -2px;
-    --gradient-sunset: linear-gradient(130deg, #22E822, #F5D6EE, #B83dc4);
+    --gradient-sunset: linear-gradient(130deg, #717ec3, #f4eded, #B83dc4);
   }
 
   #social .button-icon {
@@ -67,7 +67,7 @@ body {
 h1,
 h2 {
   font-family: var(--heading);
-  font-weight: 500;
+  font-weight: 700;
   color: var(--text-h);
 }
 
